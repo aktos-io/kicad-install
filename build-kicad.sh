@@ -9,12 +9,14 @@ if [[ ! -d $ROOT ]]; then
 fi
 
 sudo apt-get install libwxgtk3.0-0v5 libglew-dev libcairo2-dev libbz2-dev \
-                     doxygen libssl-dev \
-                     libboost-dev libboost-thread-dev libboost-context-dev \
-                     libboost-filesystem-dev libboost-iostreams-dev \
-                     libboost-locale-dev libboost-program-options-dev \
-                     libboost-test-dev \
-                     swig python-wxgtk3.0* 
+	libwxgtk3.0-dev libcurl4-openssl-dev\
+        doxygen libssl-dev libglm-dev\
+        libboost-dev libboost-thread-dev libboost-context-dev \
+        libboost-filesystem-dev libboost-iostreams-dev \
+        libboost-locale-dev libboost-program-options-dev \
+        libboost-test-dev \
+        swig python-wxgtk3.0* \
+        cmake
 
 
 cd $ROOT
